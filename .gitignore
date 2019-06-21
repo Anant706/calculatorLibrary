@@ -112,3 +112,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/.coverage
+/.gitattributes
+.DS_Store
+.idea/
+cover/
+
