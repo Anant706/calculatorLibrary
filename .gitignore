@@ -116,5 +116,4 @@ dmypy.json
 /.gitattributes
 .DS_Store
 .idea/
-cover/
 
