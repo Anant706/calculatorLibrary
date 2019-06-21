@@ -24,7 +24,7 @@ jobs:
           command: |
             . venv/bin/activate
             flake8 --exclude=venv* --statistics
-            nosetests -v --with-coverage --cover-html
+            nosetests -v --exclude= cover* --with-coverage --cover-html
       - store_artifacts:
           path: test-reports
           destination: test-reports
